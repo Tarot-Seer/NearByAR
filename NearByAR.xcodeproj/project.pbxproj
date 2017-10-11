@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AA7D908C1F8ECA6300D61F48 /* NearByAR.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7D908A1F8ECA6300D61F48 /* NearByAR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7D90931F8ECA7900D61F48 /* NearByARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D90921F8ECA7900D61F48 /* NearByARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AA7D90871F8ECA6300D61F48 /* NearByAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NearByAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7D908A1F8ECA6300D61F48 /* NearByAR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NearByAR.h; sourceTree = "<group>"; };
 		AA7D908B1F8ECA6300D61F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7D90921F8ECA7900D61F48 /* NearByARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		AA7D90891F8ECA6300D61F48 /* NearByAR */ = {
 			isa = PBXGroup;
 			children = (
+				AA7D90921F8ECA7900D61F48 /* NearByARView.swift */,
 				AA7D908A1F8ECA6300D61F48 /* NearByAR.h */,
 				AA7D908B1F8ECA6300D61F48 /* Info.plist */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					AA7D90861F8ECA6300D61F48 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7D90931F8ECA7900D61F48 /* NearByARView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 		AA7D90901F8ECA6300D61F48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zodiacinovations.NearByAR;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +281,7 @@
 		AA7D90911F8ECA6300D61F48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
