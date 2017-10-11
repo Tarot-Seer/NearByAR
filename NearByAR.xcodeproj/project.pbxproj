@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA7D908C1F8ECA6300D61F48 /* NearByAR.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7D908A1F8ECA6300D61F48 /* NearByAR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7D90931F8ECA7900D61F48 /* NearByARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D90921F8ECA7900D61F48 /* NearByARView.swift */; };
+		AA7D90951F8ECB2800D61F48 /* NearByAR.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AA7D90941F8ECB2800D61F48 /* NearByAR.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		AA7D908A1F8ECA6300D61F48 /* NearByAR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NearByAR.h; sourceTree = "<group>"; };
 		AA7D908B1F8ECA6300D61F48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA7D90921F8ECA7900D61F48 /* NearByARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByARView.swift; sourceTree = "<group>"; };
+		AA7D90941F8ECB2800D61F48 /* NearByAR.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NearByAR.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 		AA7D907D1F8ECA6300D61F48 = {
 			isa = PBXGroup;
 			children = (
+				AA7D90941F8ECB2800D61F48 /* NearByAR.podspec */,
 				AA7D90891F8ECA6300D61F48 /* NearByAR */,
 				AA7D90881F8ECA6300D61F48 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7D90951F8ECB2800D61F48 /* NearByAR.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
