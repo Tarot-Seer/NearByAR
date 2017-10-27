@@ -21,8 +21,4 @@ NearByARMap - A Swift object that manages a list of Locations. The class also ha
 
 NearByARLocation - A Swift Object containing the GPS location of a single spot. At setup, a list of locations should be provided to the Map. Additional optional properties of this object can be set to pass information (ex. location name & type). If these fields are not enough for a program purpose, this class can be subclassed and used.
 
-NearByAR is written in Swift 3.sed on locations.
-
-Apple's ARKit (and similar technologies) are based on a vision of Augmented Reality where the user "looks inward". The mobile device identifies a flat service, which the program then places 3D images on top of. The user can then view these construct from any direction, moving around in a shared virtual space.
-
-However this is not the only view of Augmented Reality.  Another such vision is a more "looks outward" approach.  Rather than creating 3D object, which the user circles around, the user looks at his suroudings (building, landmarks, stores), 
+NearByAR is written in Swift 3.
